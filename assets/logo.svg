@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect x="9" y="9" width="1006" height="1006" fill="#F6EFD5" stroke="#74041A" stroke-width="18"/>
+  <g fill="#74041A">
+    <rect x="250" y="384" width="65" height="63"/>
+    <rect x="185" y="447" width="65" height="63"/>
+    <rect x="120" y="510" width="65" height="63"/>
+    <rect x="185" y="573" width="65" height="63"/>
+    <rect x="250" y="636" width="65" height="60"/>
+  </g>
+  <path fill="#74041A" fill-rule="evenodd" d="
+    M 485 346
+    H 548
+    L 694 696
+    H 632
+    L 593 601
+    H 440
+    L 401 696
+    H 339
+    Z
+    M 516.5 410
+    L 457 560
+    H 576
+    Z
+  "/>
+  <g fill="#74041A">
+    <rect x="709" y="384" width="65" height="63"/>
+    <rect x="774" y="447" width="65" height="63"/>
+    <rect x="839" y="510" width="65" height="63"/>
+    <rect x="774" y="573" width="65" height="63"/>
+    <rect x="709" y="636" width="65" height="60"/>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API-молодцы — студенческая команда КНИТУ</title>
+<meta name="description" content="Студенческая команда КНИТУ, группа 861-ТОП243. Кейс-проект «Безопасная система оплаты услуг».">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#top"><img src="assets/logo.svg" alt="" width="36" height="36"><span>API-молодцы</span></a>
+  <nav class="nav" aria-label="Основная навигация">
+    <a href="#about">О нас</a>
+    <a href="#project">Проекты</a>
+    <a href="#team">Команда</a>
+    <a href="#contacts">Контакты</a>
+    <a class="btn btn--outline" href="#contacts">Связаться</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+
+    <h1 class="hero__title no-wrap">
+    	<span id="typed-text"></span><span class="cursor" id="cursor">|</span>
+    </h1>
+
+    <p class="hero__sub">Студенческая команда КНИТУ • Группа 861-ТОП243</p>
+    <p class="manifest"><span>5 участников</span><i>+</i><span>1 цель</span><i>+</i><span>безопасные решения</span></p>
+    <svg class="arrow" viewBox="0 0 120 80" aria-hidden="true"><path d="M5 10 C 60 0, 105 30, 95 68" fill="none" stroke="#000" stroke-width="1.5"/><path d="M85 56 L95 69 L106 55" fill="none" stroke="#000" stroke-width="1.5"/></svg>
+    <span class="dot dot--red" aria-hidden="true"></span>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section__title">О нас <b>+</b></h2>
+    <div class="about-us">
+      <div class="block block--cream about-us__text">
+        <p><strong>API-молодцы</strong> — студенческая команда КНИТУ, группа 861-ТОП243. Нас пятеро, и каждый отвечает за свою часть работы: разработку, дизайн, оформление и документацию.</p>
+        <p>Мы любим разбираться в том, как устроены сервисы изнутри, делать аккуратные интерфейсы и заботиться о безопасности данных. Вместе мы реализовали кейс-проект «Безопасная система оплаты услуг».</p>
+	<p><strong>Почему мы участвуем в хакатоне?</strong> Мы хотим проверить знания на прочность и выйти за рамки привычных лабораторных работ. Для нас «Волга.ТОП» — это возможность доказать, что студенты первого курса способны создавать продуманные IT-решения, получить фидбек от экспертов и сделать первый серьезный шаг в большую разработку.</p>
+      </div>
+      <figure class="about-us__photo">
+        <img src="assets/team.jpg" alt="Команда API-молодцы" width="900" height="800" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <section id="project" class="section">
+    <h2 class="section__title">Наш опыт <b>+</b></h2>
+    <div class="experience">
+      <article class="block block--cream">
+        <h3>Кейс-проект «Безопасная система оплаты услуг»</h3>
+        <p>Мы успешно реализовали кейс-проект по созданию безопасной системы оплаты услуг: спроектировали взаимодействие клиента и сервиса через API, продумали защиту платёжных данных и собрали рабочий прототип.</p>
+        <p>Над проектом работали все пять участников: от архитектуры и интерфейса до тестирования и документации.</p>
+      </article>
+      <img class="experience__logo" src="assets/team-logo.png" alt="Эмблема команды" width="260" height="260" loading="lazy">
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <h2 class="section__title">Команда <b>+</b></h2>
+    <div class="team" id="team-grid" aria-live="polite"></div>
+  </section>
+
+  <section id="contacts" class="section section--contacts">
+    <h2 class="section__title">Узнайте, как наша команда может помочь именно вам</h2>
+    <div class="contacts">
+      <p>Можете написать нам на почту: <a href="mailto:api_molodci@mail.ru">api_molodci@mail.ru</a></p>
+      <address>Наш адрес: КНИТУ - 420015, Российская Федерация, Республика Татарстан, г. Казань, ул. Карла Маркса, д. 68.</address>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> API-молодцы</p>
+  <p>КНИТУ • группа 861-ТОП243</p>
+  <p class="footer__links"><a href="https://gitverse.ru/annshi/API-molodci_code-wave-top">GitVerse</a></p>
+</footer>
+<dialog class="modal" id="member-modal" aria-labelledby="modal-name">
+  <button class="modal__close" type="button" aria-label="Закрыть">&times;</button>
+  <img class="modal__photo" id="modal-photo" src="" alt="">
+  <div class="modal__body">
+    <h3 id="modal-name">Описание</h3>
+    <p id="modal-bio"</p>
+  </div>
+</dialog>
+<script src="js/main.js"></script>
+</body>
+</html>
